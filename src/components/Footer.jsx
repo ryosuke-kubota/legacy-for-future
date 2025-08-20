@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <div className="text-2xl font-bold text-blue-400 mb-4">
-              中部電力ミライズ
+              Legacy for Future
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               カーボンニュートラル社会の実現に向けた最適な環境投資を実現し、お客さまの環境目標達成に貢献します。
@@ -53,7 +53,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-gray-400 mb-4 md:mb-0">
-              © 2024 中部電力ミライズ株式会社 All rights reserved.
+              © 2024 Legacy for Future株式会社 All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">プライバシーポリシー</a>

@@ -5,7 +5,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="text-2xl font-bold text-blue-600">
-              中部電力ミライズ
+              Legacy for Future
             </div>
           </div>
           <nav className="hidden md:flex space-x-8">
