@@ -8,39 +8,55 @@ export default function TableOfContents() {
     { id: 'section06', title: '導入事例' }
   ]
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      const headerHeight = 80 // ヘッダーの高さを考慮
+      const elementPosition = element.offsetTop - headerHeight
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth'
+      })
+    }
+  }
+
   return (
     <section className="py-12 bg-white relative z-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold mb-8 text-center" style={{ color: '#56950f' }}>目次</h2>
         <div className="grid md:grid-cols-3 gap-4">
           {sections.map((section, index) => (
-            <a
+            <button
               key={section.id}
-              href={`#\${section.id}`}
-              className="flex py-6 p-6 rounded-lg border border-gray-200 transition-all duration-200 group hover:scale-105 relative overflow-hidden"
+              onClick={() => scrollToSection(section.id)}
+              className="flex py-6 p-6 rounded-lg border-2 border-gray-200 transition-all duration-200 group hover:scale-105 hover:border-green-500 hover:shadow-lg relative overflow-hidden cursor-pointer bg-white"
               style={{ 
-                textDecoration: 'none',
                 backgroundImage: 'url("/images/index_bg.png")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat'
               }}
-              onMouseEnter={(e) => {
-                e.target.style.borderColor = '#56950f'
-                e.target.style.transform = 'scale(1.05)'
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.borderColor = '#e5e7eb'
-                e.target.style.transform = 'scale(1)'
-              }}
             >
               {/* Overlay for better text readability */}
-              <div className="relative z-10 flex items-center">
-                <span className="text-white transition-colors text-md leading-tight font-bold">
+              <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-30 transition-all duration-200"></div>
+              
+              <div className="relative z-10 flex items-center justify-between w-full">
+                <span className="text-white transition-colors text-md leading-tight font-bold group-hover:text-yellow-100">
                   {section.title}
                 </span>
+                <div className="ml-4 flex items-center">
+                  {/* クリック可能であることを示すアイコン */}
+                  <svg 
+                    className="w-5 h-5 text-white group-hover:text-yellow-100 transition-all duration-200 group-hover:translate-x-1" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
               </div>
-            </a>
+            </button>
           ))}
         </div>
       </div>

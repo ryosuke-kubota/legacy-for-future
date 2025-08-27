@@ -5,7 +5,7 @@ export default function Hero() {
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2356950f' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
       }}></div>
       
-      <div className="relative py-24 sm:py-32">
+      <div className="relative pt-32 pb-48 sm:pt-48 sm:pb-64">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-left animate-fade-in-up">      
@@ -48,14 +48,14 @@ export default function Hero() {
         </div> */}
       </div>
       
-      {/* Modern wave separator */}
+      {/* Large wave separator */}
       <div className="relative">
         <svg 
-          className="absolute bottom-0 left-0 w-full h-20 fill-current text-white" 
+          className="absolute bottom-0 left-0 w-full h-32 fill-current text-white" 
           viewBox="0 0 1440 120" 
           preserveAspectRatio="none"
         >
-          <path d="M0,0 C480,100 960,100 1440,0 L1440,120 L0,120 Z" />
+          <path d="M0,20 C360,100 480,100 720,40 C960,0 1080,0 1440,80 L1440,120 L0,120 Z" />
         </svg>
       </div>
     </section>

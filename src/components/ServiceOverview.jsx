@@ -1,6 +1,6 @@
 export default function ServiceOverview() {
   return (
-    <section id="section02" className="py-20 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <section id="section02" className="py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-96 h-96 bg-blue-100 rounded-full opacity-20 blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-green-100 rounded-full opacity-20 blur-3xl translate-x-1/2 translate-y-1/2"></div>
       
@@ -21,7 +21,51 @@ export default function ServiceOverview() {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto mb-16">
+        <div>
+          <img src="/images/image02.png" alt="" className="m-auto"/>
+        </div>
+
+        {/* ポイントセクション */}
+        <div className="mt-20 space-y-8">
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="flex items-start">
+              <div className="flex-shrink-0">
+                <div className="px-5 py-3 rounded-lg text-white font-bold text-lg flex items-center aspect-square" style={{ backgroundColor: '#56950f' }}>
+                  POINT 1
+                </div>
+              </div>
+              <div className="ml-6 flex-1">
+                <h3 className="text-2xl font-bold mb-4" style={{ color: '#56950f' }}>
+                  電化技術やソリューションノウハウ
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  当社は2000年の電力自由化以降、中部エリアを中心とするお客さまに向け、生産設備やユーティリティ設備の省エネ診断や電化技術の開発といったソリューション活動を実施してきました。このノウハウを最大限活用し、お客さまの環境目標・生産情報などを踏まえた最適なシステムを構築します。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="flex items-start">
+              <div className="flex-shrink-0">
+                <div className="px-5 py-3 rounded-lg text-white font-bold text-lg flex items-center aspect-square" style={{ backgroundColor: '#56950f' }}>
+                  POINT 2
+                </div>
+              </div>
+              <div className="ml-6 flex-1">
+                <h3 className="text-2xl font-bold mb-4" style={{ color: '#56950f' }}>
+                  発注者支援型コンサルティングサービス
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  事業の構想から発注・導入・運用まで発注者（お客さま）のプロジェクトメンバーの一員となって支援します。<br/>
+                  工程管理・体制構築・技術支援など、お客さまの要望に応じた幅広い支援が可能です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="max-w-5xl mx-auto mb-16">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-red-400 to-orange-400"></div>
@@ -57,9 +101,9 @@ export default function ServiceOverview() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-bold text-center text-gray-900 mb-10">比較で見る価値提供</h3>
           <div className="grid md:grid-cols-2 gap-10">
             <div className="relative">
@@ -142,70 +186,7 @@ export default function ServiceOverview() {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-          <div className="absolute inset-0" style={{ backgroundColor: '#56950f' }}></div>
-          <div className="absolute inset-0 opacity-20" style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 100 0 L 0 0 0 100' fill='none' stroke='white' stroke-width='0.5' opacity='0.1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3C/svg%3E")`
-          }}></div>
-          
-          <div className="relative p-12 md:p-16 text-white text-center">
-            <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
-              <span className="text-sm font-bold uppercase tracking-wider">Mission</span>
-            </div>
-            
-            <h3 className="text-3xl md:text-4xl font-bold mb-6">
-              カーボンニュートラル工場の実現
-            </h3>
-            <p className="text-xl opacity-90 mb-12 max-w-3xl mx-auto">
-              お客さまの現状分析から最適解の提案まで<br className="hidden md:block" />
-              一貫したサポートを提供いたします
-            </p>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
-                  <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-2xl flex items-center justify-center">
-                    <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
-                    </svg>
-                  </div>
-                  <div className="text-3xl font-bold mb-2">省エネ</div>
-                  <div className="text-sm opacity-80">エネルギー効率最大化</div>
-                  <div className="text-2xl font-bold mt-4 text-yellow-300">最大30%削減</div>
-                </div>
-              </div>
-              
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
-                  <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-2xl flex items-center justify-center">
-                    <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="text-3xl font-bold mb-2">コスト削減</div>
-                  <div className="text-sm opacity-80">投資効果最大化</div>
-                  <div className="text-2xl font-bold mt-4 text-yellow-300">ROI 150%</div>
-                </div>
-              </div>
-              
-              <div className="group">
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
-                  <div className="w-20 h-20 mx-auto mb-4 bg-white/20 rounded-2xl flex items-center justify-center">
-                    <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="text-3xl font-bold mb-2">CN実現</div>
-                  <div className="text-sm opacity-80">環境目標達成</div>
-                  <div className="text-2xl font-bold mt-4 text-yellow-300">2050年達成</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

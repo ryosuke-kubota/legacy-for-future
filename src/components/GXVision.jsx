@@ -1,6 +1,6 @@
 export default function GXVision() {
   return (
-    <section id="section01" className="py-20 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+    <section id="section01" className="py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
       <div className="absolute top-20 right-0 w-96 h-96 bg-green-100 rounded-full opacity-20 blur-3xl"></div>
       <div className="absolute bottom-20 left-0 w-96 h-96 bg-blue-100 rounded-full opacity-20 blur-3xl"></div>
       
@@ -12,16 +12,24 @@ export default function GXVision() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
             私たちが目指す<span style={{ color: '#56950f' }}>GX</span>とは
           </h2>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-xl text-gray-700 leading-relaxed">
-              カーボンニュートラル社会の実現に向けた最適な環境投資を実現します。<br className="hidden md:block" />
-              当社がお客さまへの提案活動で培った省エネや電化のノウハウを最大限に活用し、<br className="hidden md:block" />
-              お客さまの掲げる環境目標の確実な達成に貢献します。
+              株式会社Legacy for Futureは、GX（グリーントランスフォーメーション）の実現を共に目指すパートナーとして、企業の皆さまを支援いたします。<br className="hidden md:block" />
+              脱炭素経営や省エネルギー対策、環境に配慮した事業づくりに役立つ知識や最新の事例をご提供し、実務に活かせる具体的な取り組みをお伝えしています。
+            </p>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              私たちは、企業の皆さまと共に持続可能な未来を築くことを使命としています。<br className="hidden md:block" />
+              信頼できる情報と実践的な学びの場を通じて、GXの取り組みを一歩ずつ着実に進めてまいりましょう。
             </p>
           </div>
         </div>
 
         <div className="mb-16">
+
+          <img src="/images/image01.png" alt="" className="m-auto" />
+        </div>
+
+        {/* <div className="mb-16">
           <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
             <div className="grid lg:grid-cols-2 gap-0">
               <div className="relative p-12 lg:p-16" style={{ backgroundColor: '#56950f' }}>
@@ -100,7 +108,7 @@ export default function GXVision() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-gray-100 rounded-xl p-6 text-sm text-gray-600 space-y-2">
           <p>（注1）2019年度累計実績</p>
