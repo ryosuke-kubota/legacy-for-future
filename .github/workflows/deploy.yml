@@ -24,6 +24,6 @@ jobs:
           switches: -avz --delete
           path: build/
           remote_path: /public_html/greenoffset.jp # ←ここに修正
-          remote_host: 2025082915010712245738.onamaeweb.jp
+          remote_host: ${{ secrets.WEB_SERVER }}
           remote_user: ${{ secrets.SSH_USER }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
