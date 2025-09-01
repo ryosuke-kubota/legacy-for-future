@@ -29,7 +29,7 @@ export default function TableOfContents() {
             <button
               key={section.id}
               onClick={() => scrollToSection(section.id)}
-              className="flex py-4 px-4 sm:py-6 sm:p-6 rounded-lg border-2 border-gray-200 transition-all duration-200 group hover:scale-105 hover:border-green-500 hover:shadow-lg relative overflow-hidden cursor-pointer bg-white"
+              className="flex py-4 px-4 sm:py-6 sm:p-6 rounded-lg transition-all duration-200 group hover:scale-105 hover:border-green-500 hover:shadow-lg relative overflow-hidden cursor-pointer bg-white min-h-[60px]"
               style={{ 
                 backgroundImage: 'url("/images/index_bg.png")',
                 backgroundSize: 'cover',
