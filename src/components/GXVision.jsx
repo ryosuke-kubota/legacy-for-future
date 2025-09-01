@@ -1,23 +1,23 @@
 export default function GXVision() {
   return (
-    <section id="section01" className="py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+    <section id="section01" className="py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
       <div className="absolute top-20 right-0 w-96 h-96 bg-green-100 rounded-full opacity-20 blur-3xl"></div>
       <div className="absolute bottom-20 left-0 w-96 h-96 bg-blue-100 rounded-full opacity-20 blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
-          <div className="inline-block text-white text-sm font-bold px-6 py-2 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <div className="inline-block text-white text-xs sm:text-sm font-bold px-4 py-2 sm:px-6 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
             OUR VISION
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8">
             私たちが目指す<span style={{ color: '#56950f' }}>GX</span>とは
           </h2>
-          <div className="max-w-4xl mx-auto space-y-6">
-            <p className="text-xl text-gray-700 leading-relaxed">
+          <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
               株式会社Legacy for Futureは、GX（グリーントランスフォーメーション）の実現を共に目指すパートナーとして、企業の皆さまを支援いたします。<br className="hidden md:block" />
               脱炭素経営や省エネルギー対策、環境に配慮した事業づくりに役立つ知識や最新の事例をご提供し、実務に活かせる具体的な取り組みをお伝えしています。
             </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
               私たちは、企業の皆さまと共に持続可能な未来を築くことを使命としています。<br className="hidden md:block" />
               信頼できる情報と実践的な学びの場を通じて、GXの取り組みを一歩ずつ着実に進めてまいりましょう。
             </p>
@@ -110,7 +110,7 @@ export default function GXVision() {
           </div>
         </div> */}
 
-        <div className="bg-gray-100 rounded-xl p-6 text-sm text-gray-600 space-y-2">
+        <div className="bg-gray-100 rounded-xl p-4 sm:p-6 text-xs sm:text-sm text-gray-600 space-y-2">
           <p>（注1）2019年度累計実績</p>
           <p>（注2）Quality（品質）、Cost（コスト）、Delivery（納期）の頭文字で開発・生産の評価指標の一つ</p>
           <p>（注3）Carbon Neutrality の頭文字で温室効果ガスの排出量と吸収量を均衡させること</p>

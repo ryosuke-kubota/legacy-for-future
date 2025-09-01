@@ -1,21 +1,21 @@
 export default function ServiceOverview() {
   return (
-    <section id="section02" className="py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <section id="section02" className="py-16 sm:py-20 md:py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-96 h-96 bg-blue-100 rounded-full opacity-20 blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-green-100 rounded-full opacity-20 blur-3xl translate-x-1/2 translate-y-1/2"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
-          <div className="inline-block text-white text-sm font-bold px-6 py-2 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <div className="inline-block text-white text-xs sm:text-sm font-bold px-4 py-2 sm:px-6 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
             SERVICE OVERVIEW
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             Legacy for Futureの
             <span className="block mt-2" style={{ color: '#56950f' }}>
               GXコンサルティングサービス
             </span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
             従来の課題を解決し、最適なエネルギーシステムで<br className="hidden md:block" />
             カーボンニュートラル実現をサポートします
           </p>
@@ -26,37 +26,37 @@ export default function ServiceOverview() {
         </div>
 
         {/* ポイントセクション */}
-        <div className="mt-20 space-y-8">
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="flex items-start">
-              <div className="flex-shrink-0">
-                <div className="px-5 py-3 rounded-lg text-white font-bold text-lg flex items-center aspect-square" style={{ backgroundColor: '#56950f' }}>
+        <div className="mt-12 sm:mt-16 md:mt-20 space-y-6 sm:space-y-8">
+          <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
+            <div className="flex items-start flex-col md:flex-row">
+              <div className="flex-shrink-0 w-full md:w-auto">
+                <div className="px-3 py-2 mb-4 md:mb-0 sm:px-5 sm:py-3 rounded-lg text-white font-bold text-base sm:text-lg flex items-center justify-center md:aspect-square" style={{ backgroundColor: '#56950f' }}>
                   POINT 1
                 </div>
               </div>
-              <div className="ml-6 flex-1">
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#56950f' }}>
+              <div className="ml-4 sm:ml-6 flex-1">
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#56950f' }}>
                   電化技術やソリューションノウハウ
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   当社は2000年の電力自由化以降、中部エリアを中心とするお客さまに向け、生産設備やユーティリティ設備の省エネ診断や電化技術の開発といったソリューション活動を実施してきました。このノウハウを最大限活用し、お客さまの環境目標・生産情報などを踏まえた最適なシステムを構築します。
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="flex items-start">
-              <div className="flex-shrink-0">
-                <div className="px-5 py-3 rounded-lg text-white font-bold text-lg flex items-center aspect-square" style={{ backgroundColor: '#56950f' }}>
+          <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
+            <div className="flex items-start flex-col md:flex-row">
+              <div className="flex-shrink-0 w-full md:w-auto">
+                <div className="px-3 py-2 mb-4 md:mb-0 sm:px-5 sm:py-3 rounded-lg text-white font-bold text-base sm:text-lg flex items-center justify-center md:aspect-square" style={{ backgroundColor: '#56950f' }}>
                   POINT 2
                 </div>
               </div>
-              <div className="ml-6 flex-1">
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#56950f' }}>
+              <div className="ml-4 sm:ml-6 flex-1">
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#56950f' }}>
                   発注者支援型コンサルティングサービス
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   事業の構想から発注・導入・運用まで発注者（お客さま）のプロジェクトメンバーの一員となって支援します。<br/>
                   工程管理・体制構築・技術支援など、お客さまの要望に応じた幅広い支援が可能です。
                 </p>

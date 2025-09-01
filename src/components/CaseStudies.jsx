@@ -15,27 +15,27 @@ export default function CaseStudies() {
   ]
 
   return (
-    <section id="section06" className="py-32" style={{ backgroundColor: '#f0f4e8' }}>
+    <section id="section06" className="py-16 sm:py-20 md:py-24 lg:py-32" style={{ backgroundColor: '#f0f4e8' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <div className="inline-block text-white text-sm font-bold px-6 py-2 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <div className="inline-block text-white text-xs sm:text-sm font-bold px-4 py-2 sm:px-6 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
             CASE STUDIES
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             導入事例
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             様々な業界のお客さまにGXコンサルティングサービスをご利用いただき、
             確実な成果を実現しています
           </p>
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {caseStudies.map((study) => (
               <div key={study.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105">
                 {/* 企業ロゴサムネイル */}
-                <div className="h-48 bg-white p-8 flex items-center justify-center border-b border-gray-100">
+                <div className="h-32 sm:h-40 md:h-48 bg-white p-4 sm:p-6 md:p-8 flex items-center justify-center border-b border-gray-100">
                   <img 
                     src={study.logoImage} 
                     alt={`${study.company}のロゴ`}
@@ -56,18 +56,18 @@ export default function CaseStudies() {
                   />
                 </div>
                 
-                <div className="p-8">
+                <div className="p-4 sm:p-6 md:p-8">
                   
                   {/* サービス名 */}
-                  <div className="text-sm text-gray-600 mb-4">GXコンサルティングサービス</div>
+                  <div className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4">GXコンサルティングサービス</div>
                   
                   {/* 企業名 */}
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
                     {study.company}
                   </h3>
                   
                   {/* 説明文 */}
-                  <p className="text-gray-700 text-sm leading-relaxed mb-6">
+                  <p className="text-gray-700 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-6">
                     {study.description}
                   </p>
                   
