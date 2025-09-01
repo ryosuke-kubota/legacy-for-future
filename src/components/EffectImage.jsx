@@ -5,7 +5,7 @@ export default function EffectImage() {
       <div className="py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 lg:mb-8 px-2">
+            <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 lg:mb-8 px-2">
               GXコンサルティングサービスの効果イメージ
             </h2>
           </div>
@@ -17,7 +17,7 @@ export default function EffectImage() {
               </div>
 
               <div className="order-1 md:order-2 px-3 sm:px-4 md:px-6 lg:px-0">
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">GXコンサルティングサービスでは、お客さまが設備投資を計画する初期段階から、当社が計画の立案に参画することで、CO2の排出量や投資コストを最小限に抑え、メンテナンス性や作業性などの潜在課題にも配慮した設備投資が可能となります。</p>
+                <p className="text-sm sm:text-sm md:text-base lg:text-lg leading-relaxed">GXコンサルティングサービスでは、お客さまが設備投資を計画する初期段階から、当社が計画の立案に参画することで、CO2の排出量や投資コストを最小限に抑え、メンテナンス性や作業性などの潜在課題にも配慮した設備投資が可能となります。</p>
               </div>
             </div>
           </div>
@@ -41,15 +41,15 @@ export default function EffectImage() {
         {/* コンテンツ */}
         <div className="relative z-10 text-center text-white px-3 sm:px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 md:mb-6">
+            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 md:mb-6">
             プロジェクトの効果を高めるためには、初期の構想が重要です。
             </h3>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-4 sm:mb-6 md:mb-8 opacity-90 px-2 sm:px-4">
+            <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-4 sm:mb-6 md:mb-8 opacity-90 px-2 sm:px-4">
             ご計画はお早めにご相談ください。
             </p>
             <a 
               href="#" 
-              className="inline-flex items-center px-4 sm:px-6 md:px-8 lg:px-12 py-2 sm:py-3 md:py-4 lg:py-5 font-bold text-xs sm:text-sm md:text-base lg:text-lg rounded-lg transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
+              className="inline-flex items-center px-4 sm:px-6 md:px-8 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-bold text-sm sm:text-sm md:text-base lg:text-lg rounded-lg transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
               style={{ backgroundColor: '#56950f' }}
             >
               詳しいご相談はこちら

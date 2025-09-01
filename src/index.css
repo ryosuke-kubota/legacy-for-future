@@ -40,18 +40,18 @@ html {
 /* モバイル用のフォントサイズ調整 */
 @media (max-width: 640px) {
   html {
-    font-size: 13px;
+    font-size: 14px;
   }
   
   body {
-    line-height: 1.6;
+    line-height: 1.65;
   }
 }
 
 /* タブレット用のフォントサイズ調整 */
 @media (min-width: 641px) and (max-width: 1024px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
