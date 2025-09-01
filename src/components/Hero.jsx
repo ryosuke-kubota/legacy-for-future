@@ -8,8 +8,8 @@ export default function Hero() {
       <div className="relative pt-20 pb-32 sm:pt-32 sm:pb-48 md:pt-48 md:pb-64">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="text-left animate-fade-in-up">      
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 md:mb-6" style={{ color: '#56950f' }}>
+            <div className="text-center md:text-left animate-fade-in-up">      
+              <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 md:mb-6" style={{ color: '#56950f' }}>
                 GXコンサルティング
                 <span className="block" style={{ color: '#56950f' }}>サービス</span>
               </h1>

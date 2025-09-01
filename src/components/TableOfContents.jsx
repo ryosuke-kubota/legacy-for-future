@@ -40,7 +40,7 @@ export default function TableOfContents() {
               {/* Overlay for better text readability */}
               <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-30 transition-all duration-200"></div>
               
-              <div className="relative z-10 flex items-center justify-between w-full">
+              <div className="relative z-10 flex items-center justify-between w-full h-full">
                 <span className="text-white transition-colors text-sm sm:text-base md:text-md leading-tight font-bold group-hover:text-yellow-100">
                   {section.title}
                 </span>
