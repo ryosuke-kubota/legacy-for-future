@@ -22,7 +22,7 @@ jobs:
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -avz --delete
-          path: build/
+          path: dist/
           remote_path: public_html/greenoffset.jp # ←ここに修正
           remote_host: ${{ secrets.WEB_SERVER }}
           remote_user: ${{ secrets.SSH_USER }}
