@@ -23,8 +23,8 @@ jobs:
         with:
           switches: -avz --delete
           path: build/
-          remote_path: /public_html/greenoffset.jp # ←ここに修正
-          remote_host: ${{ secrets.WEB_SERVER }}
-          remote_user: ${{ secrets.SSH_USER }}
-          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          remote_port: 8022
+          remote_path: public_html/greenoffset.jp # ←ここに修正
+          host: ${{ secrets.WEB_SERVER }}
+          username: ${{ secrets.SSH_USER }}
+          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 8022
