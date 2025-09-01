@@ -27,4 +27,4 @@ jobs:
           remote_host: ${{ secrets.WEB_SERVER }}
           remote_user: ${{ secrets.SSH_USER }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 8022
+          remote_port: 8022
