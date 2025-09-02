@@ -10,7 +10,7 @@ export default function SupportContent() {
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 100 0 L 0 0 0 100' fill='none' stroke='white' stroke-width='0.5' opacity='0.1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3C/svg%3E")`
           }}></div>
           
-          <div className="relative p-8 sm:p-12 md:p-16 text-white text-center">
+          <div className="relative px-4 py-8 sm:py-12 md:py-16 text-white text-center">
             <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 mb-4 sm:mb-6">
               <span className="text-xs sm:text-sm font-bold uppercase tracking-wider">SUPPORT SERVICES</span>
             </div>
