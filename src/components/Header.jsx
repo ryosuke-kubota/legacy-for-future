@@ -10,19 +10,18 @@ export default function Header() {
               className="h-10 sm:h-12"
             />
           </div>
-          <nav className="hidden md:flex space-x-8">
+          <nav className="flex space-x-4 sm:space-x-8">
             {/* <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">個人のお客さま</a>
             <a href="#" className="text-blue-600 font-medium">法人のお客さま</a>
             <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">企業情報</a> */}
-            <a href="#" className="text-sm sm:text-base text-gray-700 hover:text-blue-600 transition-colors duration-200">お問い合わせ</a>
+            <a 
+              href="#" 
+              className="px-4 py-2 sm:px-6 sm:py-2 text-xs sm:text-sm text-white font-bold rounded-lg hover:shadow-lg transition-all duration-200"
+              style={{ backgroundColor: '#56950f' }}
+            >
+              お問い合わせ
+            </a>
           </nav>
-          <div className="md:hidden">
-            <button className="p-1 text-gray-700 hover:text-blue-600">
-              <svg className="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
         </div>
       </div>
     </header>
