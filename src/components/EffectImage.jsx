@@ -48,7 +48,7 @@ export default function EffectImage() {
             まずは無料相談で、貴社に最適なGX戦略をご提案します
             </p>
             <a 
-              href="#" 
+              href="mailto:legacy.forfuture@greenoffset.jp" 
               className="inline-flex items-center px-4 sm:px-6 md:px-8 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-bold text-sm sm:text-sm md:text-base lg:text-lg rounded-lg transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
               style={{ backgroundColor: '#56950f' }}
             >

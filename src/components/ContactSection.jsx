@@ -21,7 +21,7 @@ export default function ContactSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6 sm:mb-8">
-              <a href="#" className="inline-flex justify-center items-center px-6 py-3 sm:px-8 sm:py-4 font-bold text-sm sm:text-base rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl hover:scale-105" style={{ backgroundColor: '#56950f', color: 'white' }}>
+              <a href="mailto:legacy.forfuture@greenoffset.jp" className="inline-flex justify-center items-center px-6 py-3 sm:px-8 sm:py-4 font-bold text-sm sm:text-base rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl hover:scale-105" style={{ backgroundColor: '#56950f', color: 'white' }}>
                 お問い合わせはこちら
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clipRule="evenodd" />
