@@ -10,6 +10,7 @@ import CaseVideos from './components/CaseVideos'
 import CaseStudies from './components/CaseStudies'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import CompanyProfile from './components/CompanyProfile'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <EffectImage />
         {/* <CaseVideos /> */}
         {/* <CaseStudies /> */}
+        <CompanyProfile />
         <ContactSection />
       </main>
       <Footer />
