@@ -10,13 +10,13 @@ export default function Hero() {
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="text-center md:text-left animate-fade-in-up">      
               <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 md:mb-6" style={{ color: '#56950f' }}>
-                GXコンサルティング
-                <span className="block" style={{ color: '#56950f' }}>サービス</span>
+                中小企業GX支援
+                <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2" style={{ color: '#56950f' }}>サービス</span>
               </h1>
               
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8 leading-relaxed text-gray-700">
-                グリーントランスフォーメーションで<br />
-                省エネ・コスト削減・職場環境向上を実現
+                2030年温室効果ガス46％以上削減<br />
+                2050年カーボンニュートラルを目指して
               </p>
               
               {/* <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">

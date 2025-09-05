@@ -1,11 +1,11 @@
 export default function TableOfContents() {
   const sections = [
-    { id: 'section01', title: '私たちが目指すGXとは' },
-    { id: 'section02', title: 'Legacy for FutureのGXコンサルティングサービスとは' },
-    { id: 'section03', title: '支援内容' },
-    { id: 'section04', title: 'GXコンサルティングサービスの効果イメージ' },
-    { id: 'section05', title: '事例紹介動画' },
-    { id: 'section06', title: '導入事例' }
+    { id: 'section01', title: 'GXとは' },
+    { id: 'section02', title: '支援メニュー' },
+    { id: 'section03', title: '私たちの強み' },
+    { id: 'section04', title: '導入効果' },
+    { id: 'section05', title: '支援事例動画' },
+    { id: 'section06', title: '導入実績' }
   ]
 
   const scrollToSection = (sectionId) => {

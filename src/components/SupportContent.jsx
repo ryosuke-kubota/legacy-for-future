@@ -12,15 +12,15 @@ export default function SupportContent() {
           
           <div className="relative px-4 py-8 sm:py-12 md:py-16 text-white text-center">
             <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 mb-4 sm:mb-6">
-              <span className="text-xs sm:text-sm font-bold uppercase tracking-wider">SUPPORT SERVICES</span>
+              <span className="text-xs sm:text-sm font-bold uppercase tracking-wider">OUR APPROACH</span>
             </div>
             
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
-            支援内容
+            私たちの強み
             </h3>
             <p className="text-base sm:text-lg md:text-xl opacity-90 mb-8 sm:mb-12 max-w-3xl mx-auto">
-            お客さまの課題解決に向けて、<br className="hidden md:block" />
-            包括的なGXコンサルティングサービスを提供します
+            中小企業の皆様に寄り添い、<br className="hidden md:block" />
+            実現可能な脱炭素化への道筋を共に描きます
             </p>
             
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
@@ -32,8 +32,8 @@ export default function SupportContent() {
                       <path d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-2-2a1 1 0 111.414-1.414L10 15.586l5.293-5.293a1 1 0 011.414 0z" />
                     </svg>
                   </div>
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold mb-2">新設・改修<br />プロジェクト推進</div>
-                  <div className="text-sm sm:text-base opacity-80">プロジェクト体制構築、全体工程管理など</div>
+                  <div className="text-lg sm:text-xl md:text-2xl font-bold mb-2">専門知識と<br />豊富な実績</div>
+                  <div className="text-sm sm:text-base opacity-80">中小企業に特化したGX支援の経験豊富な専門家チーム</div>
                 </div>
               </div>
               
@@ -41,11 +41,11 @@ export default function SupportContent() {
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 bg-white/20 rounded-2xl flex items-center justify-center">
                     <svg className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                      <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
                     </svg>
                   </div>
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold mb-2">カーボンニュートラル<br />設備導入</div>
-                  <div className="text-sm sm:text-base opacity-80">全体最適システムの構築、高効率設備の選定など</div>
+                  <div className="text-lg sm:text-xl md:text-2xl font-bold mb-2">段階的な<br />導入支援</div>
+                  <div className="text-sm sm:text-base opacity-80">企業の規模と状況に合わせた無理のない段階的アプローチ</div>
                 </div>
               </div>
               
@@ -53,11 +53,12 @@ export default function SupportContent() {
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 bg-white/20 rounded-2xl flex items-center justify-center">
                     <svg className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
+                      <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold mb-2">エンジニアリング<br />パートナー連携</div>
-                  <div className="text-sm sm:text-base opacity-80">協力企業の選定、必要な情報の提供・収集</div>
+                  <div className="text-lg sm:text-xl md:text-2xl font-bold mb-2">コスト効率の<br />最適化</div>
+                  <div className="text-sm sm:text-base opacity-80">補助金活用と費用対効果を重視した実現可能な提案</div>
                 </div>
               </div>
             </div>
