@@ -6,18 +6,18 @@ export default function EffectImage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
             <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 lg:mb-8 px-2">
-              GXコンサルティングサービスの効果イメージ
+              中小企業GX支援の導入効果
             </h2>
           </div>
 
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+            <div className="grid md:grid-cols-1 gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
               <div className="order-2 md:order-1">
-                <img src="/images/image01.png" alt="" className="w-full h-auto" />
+                <img src="/images/kouka.png" alt="" className="w-full h-auto" />
               </div>
 
               <div className="order-1 md:order-2 px-3 sm:px-4 md:px-6 lg:px-0">
-                <p className="text-sm sm:text-sm md:text-base lg:text-lg leading-relaxed">GXコンサルティングサービスでは、お客さまが設備投資を計画する初期段階から、当社が計画の立案に参画することで、CO2の排出量や投資コストを最小限に抑え、メンテナンス性や作業性などの潜在課題にも配慮した設備投資が可能となります。</p>
+                <p className="text-sm sm:text-sm md:text-base lg:text-lg leading-relaxed">中小企業GX支援サービスでは、現状の把握から計画立案、実行支援まで一貫してサポート。補助金活用により初期投資を抑えながら、確実にCO2削減目標を達成し、取引先からの要求にも対応可能な体制を構築します。</p>
               </div>
             </div>
           </div>
@@ -42,13 +42,13 @@ export default function EffectImage() {
         <div className="relative z-10 text-center text-white px-3 sm:px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 md:mb-6">
-            プロジェクトの効果を高めるためには、初期の構想が重要です。
+            早期の取り組みが、競争優位性を生み出します
             </h3>
             <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-4 sm:mb-6 md:mb-8 opacity-90 px-2 sm:px-4">
-            ご計画はお早めにご相談ください。
+            まずは無料相談で、貴社に最適なGX戦略をご提案します
             </p>
             <a 
-              href="#" 
+              href="mailto:legacy.forfuture@greenoffset.jp" 
               className="inline-flex items-center px-4 sm:px-6 md:px-8 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-bold text-sm sm:text-sm md:text-base lg:text-lg rounded-lg transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
               style={{ backgroundColor: '#56950f' }}
             >

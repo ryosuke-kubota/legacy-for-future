@@ -15,7 +15,7 @@ export default function Header() {
             <a href="#" className="text-blue-600 font-medium">法人のお客さま</a>
             <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">企業情報</a> */}
             <a 
-              href="#" 
+              href="mailto:legacy.forfuture@greenoffset.jp" 
               className="px-4 py-2 sm:px-6 sm:py-2 text-xs sm:text-sm text-white font-bold rounded-lg hover:shadow-lg transition-all duration-200"
               style={{ backgroundColor: '#56950f' }}
             >

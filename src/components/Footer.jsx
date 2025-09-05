@@ -10,24 +10,24 @@ export default function Footer() {
               className="h-32 sm:h-16 mb-4 mx-auto sm:mx-0"
             />
             <p className="text-gray-600 text-xs sm:text-sm leading-relaxed text-center sm:text-left">
-              カーボンニュートラル社会の実現に向けた最適な環境投資を実現し、お客さまの環境目標達成に貢献します。
+              中小企業のGX実現をサポートし、持続可能な経営と競争力強化に貢献します。
             </p>
           </div>
 
           <div className="col-span-1">
             <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4 text-center sm:text-left">サービス</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-center sm:text-left">
-              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">GXコンサルティング</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">エネルギー診断</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">省エネ設備導入</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">導入支援</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">CO2算定・削減計画</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">省エネ診断・設備導入</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">補助金申請支援</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">ISO認証取得支援</a></li>
             </ul>
           </div>
 
           <div className="col-span-1">
             <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4 text-center sm:text-left">お問い合わせ</h3>
             <div className="space-y-4 text-center sm:text-left">
-              <a href="#" className="inline-flex items-center px-3 py-2 sm:px-4 bg-blue-600 text-white text-xs sm:text-sm font-medium rounded-md hover:bg-blue-700 transition-colors duration-200 mx-auto sm:mx-0">
+              <a href="mailto:legacy.forfuture@greenoffset.jp" className="inline-flex items-center px-3 py-2 sm:px-4 bg-blue-600 text-white text-xs sm:text-sm font-medium rounded-md hover:bg-blue-700 transition-colors duration-200 mx-auto sm:mx-0">
                 お問い合わせはこちら
                 <svg className="w-3 h-3 sm:w-4 sm:h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clipRule="evenodd" />
@@ -48,9 +48,9 @@ export default function Footer() {
               © 2025 Legacy for Future株式会社 All rights reserved.
             </div>
             <div className="flex space-x-4 sm:space-x-6 text-xs sm:text-sm">
-              <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">プライバシーポリシー</a>
+              {/* <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">プライバシーポリシー</a>
               <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">利用規約</a>
-              <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">サイトマップ</a>
+              <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">サイトマップ</a> */}
             </div>
           </div>
         </div>

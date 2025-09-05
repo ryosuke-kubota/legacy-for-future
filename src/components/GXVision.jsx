@@ -7,26 +7,75 @@ export default function GXVision() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <div className="inline-block text-white text-xs sm:text-sm font-bold px-4 py-2 sm:px-6 rounded-full mb-4" style={{ backgroundColor: '#56950f' }}>
-            OUR VISION
+            ABOUT GX
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8">
-            私たちが目指す<span style={{ color: '#56950f' }}>GX</span>とは
+            GX＝<span style={{ color: '#56950f' }}>グリーントランスフォーメーション</span>
           </h2>
           <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6">
             <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
-              株式会社Legacy for Futureは、GX（グリーントランスフォーメーション）の実現を共に目指すパートナーとして、企業の皆さまを支援いたします。<br className="hidden md:block" />
-              脱炭素経営や省エネルギー対策、環境に配慮した事業づくりに役立つ知識や最新の事例をご提供し、実務に活かせる具体的な取り組みをお伝えしています。
+              GXとは、「グリーントランスフォーメーション」の略。<br />
+              2050年カーボンニュートラルや、2030年の国としての温室効果ガス排出削減目標の達成に向けた取組を経済の成長の機会と捉え、排出削減と産業競争力の向上の実現に向けて、経済社会システム全体の変革がGXです。
             </p>
-            <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">
-              私たちは、企業の皆さまと共に持続可能な未来を築くことを使命としています。<br className="hidden md:block" />
-              信頼できる情報と実践的な学びの場を通じて、GXの取り組みを一歩ずつ着実に進めてまいりましょう。
+            <p className="text-xs sm:text-sm text-gray-500">（出典：経済産業省）</p>
+          </div>
+        </div>
+
+        {/* カーボンニュートラル目標セクション */}
+        <div className="bg-white rounded-3xl shadow-lg p-6 sm:p-8 md:p-12 mb-12">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6" style={{ color: '#56950f' }}>
+            2030年温室効果ガス46％以上削減<br />
+            2050年カーボンニュートラルを目指して
+          </h3>
+          <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
+            2020年に菅首相（当時）は「日本が2050年までにカーボンニュートラルを目指す」及び「2030年度に、温室効果ガスを2013年度から46％削減することを目指す。さらに、50％の高みに向けて、挑戦を続けていく」ことを宣言しました。この宣言はこれまでの2030年度の温室効果ガス削減目標を大幅に引き上げるとともに、カーボンニュートラルの達成時期を大きく前倒ししました。
+          </p>
+          <p className="text-xs sm:text-sm text-gray-500 mt-2">（出典：環境省・資源エネルギー庁・経済産業省）</p>
+        </div>
+
+        {/* 東証プライム企業セクション */}
+        <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-3xl p-6 sm:p-8 md:p-12 mb-12">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-6" style={{ color: '#56950f' }}>
+            東証プライム企業でのサプライチェーン情報開示
+          </h3>
+          <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4">
+            現在、東京証券取引所プライム市場に上場している企業については、TCFD基準での情報開示が求められています。GHGプロトコルを用いて、サプライチェーンを構成する企業の情報を収集して、各カテゴリーに対応した算定が求められています。
+          </p>
+          <div className="bg-white/70 rounded-xl p-4 sm:p-6">
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800">
+              つまり東証プライム市場上場企業と取引がある企業は、GHGプロトコルに基づいたサプライチェーンでの排出量削減に貢献する必要があります。
             </p>
           </div>
         </div>
 
-        <div className="mb-16">
-
-          <img src="/images/image01.png" alt="" className="m-auto" />
+        {/* 中小企業サポートメッセージ */}
+        <div className="text-center mb-16">
+          <div className="inline-block bg-yellow-50 rounded-2xl p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4" style={{ color: '#56950f' }}>
+              中小企業のさまざまな取り組みをサポートします
+            </h3>
+            <p className="text-base sm:text-lg text-gray-700 mb-4">
+              GXにまつわる中小企業の様々なお悩みの解決に一緒に取り組みます。
+            </p>
+            <div className="grid sm:grid-cols-2 gap-3 text-left text-sm sm:text-base text-gray-700">
+              <div className="flex items-start gap-2">
+                <span className="text-green-600 mt-1">・</span>
+                <span>GHGプロトコルに基づくCO2排出量の算定</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-green-600 mt-1">・</span>
+                <span>取引先から求められてくるさまざまなデータについて</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-green-600 mt-1">・</span>
+                <span>SBT認定のためにはどのようなことをすればよいか</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-green-600 mt-1">・</span>
+                <span>社内での取りまとめ方法　などなど</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* <div className="mb-16">

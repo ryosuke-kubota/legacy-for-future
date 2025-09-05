@@ -23,8 +23,8 @@ function App() {
         <ServiceOverview />
         <SupportContent />
         <EffectImage />
-        <CaseVideos />
-        <CaseStudies />
+        {/* <CaseVideos /> */}
+        {/* <CaseStudies /> */}
         <ContactSection />
       </main>
       <Footer />
