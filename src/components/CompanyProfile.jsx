@@ -20,7 +20,7 @@ export default function CompanyProfile() {
             </div>
             <div className="bg-gray-50 rounded-lg p-3">
               <div className="font-bold text-gray-700 text-xs mb-1">本社所在地</div>
-              <div className="text-gray-800 text-sm">札幌市白石区東札幌一条二丁目2番1-20　1号</div>
+              <div className="text-gray-800 text-sm">札幌市白石区東札幌1条2丁目2-31-201号</div>
             </div>
             <div className="bg-gray-50 rounded-lg p-3">
               <div className="font-bold text-gray-700 text-xs mb-1">設立</div>
@@ -32,7 +32,7 @@ export default function CompanyProfile() {
             </div>
             <div className="bg-gray-50 rounded-lg p-3">
               <div className="font-bold text-gray-700 text-xs mb-1">代表者</div>
-              <div className="text-gray-800 text-sm">代表取締役　和田善大</div>
+              <div className="text-gray-800 text-sm">代表取締役　和田幸大</div>
             </div>
             <div className="bg-gray-50 rounded-lg p-3">
               <div className="font-bold text-gray-700 text-xs mb-2">事業内容</div>
