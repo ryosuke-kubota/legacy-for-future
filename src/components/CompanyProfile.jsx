@@ -61,7 +61,7 @@ export default function CompanyProfile() {
                     本社所在地
                   </td>
                   <td className="py-4 px-4 text-gray-800 text-sm sm:text-base">
-                    札幌市白石区東札幌一条二丁目2番1-20　1号
+                    札幌市白石区東札幌1条2丁目2-31-201号
                   </td>
                 </tr>
                 <tr>
@@ -85,7 +85,7 @@ export default function CompanyProfile() {
                     代表者
                   </td>
                   <td className="py-4 px-4 text-gray-800 text-sm sm:text-base">
-                    代表取締役　和田善大
+                    代表取締役　和田幸大
                   </td>
                 </tr>
                 <tr>
